@@ -16,7 +16,7 @@ response data :
   { auth : true/false }
 ```
 
-[example](https://github.com/elyas74/pooya-api/tree/master/v0/node/example/login.js)
+[nodejs example](https://github.com/elyas74/pooya-api/tree/master/v0/node/example/login.js)
 
 note : this is first method you should call to get cookie and after that you can send other requests.
 
@@ -30,7 +30,7 @@ body : {}
 ```
 note : you need to set cookie in header.
 
-[example](https://github.com/elyas74/pooya-api/tree/master/v0/node/example/notification.js)
+[nodejs example](https://github.com/elyas74/pooya-api/tree/master/v0/node/example/notification.js)
 
 ### message_show()
 
@@ -42,7 +42,7 @@ body : { message_id : "idofyourmessage" }
 ```
 note : you need to set cookie in header.
 
-[example](https://github.com/elyas74/pooya-api/tree/master/v0/node/example/message_show.js)
+[nodejs example](https://github.com/elyas74/pooya-api/tree/master/v0/node/example/message_show.js)
 
 
 You can see all examples in [example](https://github.com/elyas74/pooya-api/tree/master/v0/node/example) folder in nodejs.
