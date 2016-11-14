@@ -18,6 +18,8 @@ response data :
 
 [nodejs example](https://github.com/elyas74/pooya-api/tree/master/v0/node/example/login.js)
 
+[nodejs implement example](https://github.com/elyas74/pooya-api/tree/master/v0/node/core/login.js)
+
 note : this is first method you should call to get cookie and after that you can send other requests.
 
 ### notification()
@@ -32,6 +34,8 @@ note : you need to set cookie in header.
 
 [nodejs example](https://github.com/elyas74/pooya-api/tree/master/v0/node/example/notification.js)
 
+[nodejs implement example](https://github.com/elyas74/pooya-api/tree/master/v0/node/core/notification.js)
+
 ### message_show()
 
 in notificaion method you get data of messages but full data are here and you should send message `_id` to server for.
@@ -44,6 +48,7 @@ note : you need to set cookie in header.
 
 [nodejs example](https://github.com/elyas74/pooya-api/tree/master/v0/node/example/message_show.js)
 
+[nodejs implement example](https://github.com/elyas74/pooya-api/tree/master/v0/node/core/message_show.js)
 
 You can see all examples in [example](https://github.com/elyas74/pooya-api/tree/master/v0/node/example) folder in nodejs.
 
